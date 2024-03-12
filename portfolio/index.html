@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+             <li><a href="#header">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#portfolio">Portfolio</a></li>
+             <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+               <h2>Hello all !</h2><h1>I'm <span>Jivan</span></h1>
+                <p>Frontend   Developer</p><br>
+                <p>Welcome to my portfolio!<br> I'm passionate about crafting digital experiences.<br>Explore my work and let's create something extraordinary together.<br>Welcome aboard!</p>
+
+            </div>
+        </div>
+    </div>
+<!--------about-->
+    <div id="about">
+        <div class="container"></div>
+    <div class="row">
+        <div class="about-col-1"><img src="Jivanport1.jpeg">
+        </div>
+        
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Highly motivated computer science student with programming skills.
+                Collaborative team player with effective communication and problem solving abilities. Actively engaged in coding competitions and workshops.
+                Seeking opportunities to contribute to innovative projects and grow
+                professionally in a dynamic environment.</p>
+
+       <div class="tab-titles" >
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('experience')">Achievements</p>
+        <p class="tab-links" onclick="opentab('qualification')">Qualification</p>
+     </div>
+     <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <li><span>Programming(python,c)</span><br>Developing programs which leads to decrease time and space complexity of system</li>
+            <li><span>Web development</span><br>building attractive and effective websites</li>
+            <li><span>Competative programming and DSA</span><br>programs for effectiveness</li>
+            <li><span>Reasoning and Discrete mathmatics</span><br>Applied Mathematics</li>
+            <li><span>SEO</span><br>Modifying website for good traffic</li>
+            <li><span>MySQL</span><br>Database management and modification</li>
+            <li><span>Data analysis</span><br>Data analysis with NumPy,Pandas and Excel</li>
+
+            
+
+        </ul>
+     </div>
+     <div class="tab-contents" id="experience">
+        <ul>
+            <li><span>Google</span><br>Foundational Project Management</li>
+            <li><span>Squarespace</span><br>Search Engine Optimization</li>
+            <li><span>Michigan University</span><br>Python</li>
+            <li><span>Hackerrank</span><br>5 star programmer in C and 4 star in python</li>
+        </ul>
+     </div>
+     <div class="tab-contents" id="qualification">
+        <ul>
+            <li><span>Undergraduation in Data Science and Artificial Intelligence<br>2023 - present</span><br>Indian Institute of Technology, Guwahati<br>Institute of Innovation, Bengaluru</li>
+            <li><span>Higher Secondary<br>2019 - 2022</span><br>Fergusson(Junior wing) college,Pune</li>
+            <li><span>Secondary Education<br>2013 - 2019</span><br>New English School, Nhavi</li>
+        </ul>
+     </div>
+        </div>
+       
+    </div>
+    </div>
+</div>
+<!------------portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="swiggy.png">
+                <div class="layer">
+                    <h3>Clone of Swiggy</h3>
+                    <p>Built clone of Swiggy Using basic HTML,CSS </p>
+                    <!-- <a href="#"></a> -->
+                </div>
+             </div>
+            <div class="work">
+                <img src="Webdev.jpeg">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>Web form of portfoli including all information of till now of Jivan Jamdar</p>
+                    <!-- <a href="#"></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="lia.jpeg">
+                <div class="layer">
+                    <h3>Liabrary management system</h3>
+                    <p>With Powerful python liabraries , built a Liabrary management system</p>
+                    <!-- <a href="#"></a> -->
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Liked it ?, See more</a>
+    </div>
+</div>
+
+<!-- contant -->
+<div id="contact">
+<div class="container">
+<div class="row">
+ <!-- container contact-left -->
+    <div class="contact-left"> 
+        <h1 class="sub-titles">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>jamadarjivan01@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+91 808094xxxx</p>
+     <div class="social-icons">
+         <a href=""><i class="fa-brands fa-whatsapp"></i></a> 
+         <a href="https://www.linkedin.com/in/jivan-jamdar-07a11b262/"><i class="fa-brands fa-linkedin"></i></a> 
+         <a href="https://github.com/Jivanjamadar"><i class="fa-brands fa-github"></i></a> 
+         <a href="https://twitter.com/JivanJamadar"><i class="fa-brands fa-x-twitter"></i></a> 
+     </div>
+    </div>
+    <div class="contact-right">
+    <form>
+
+        <input type="text" name="Name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="massage" rows="6" placeholder="Your message"></textarea>
+    <button type="Submit" class="btn btn2">Submit</button>
+
+    </form> 
+    
+    
+    </div>
+</div>
+
+</div>
+<div class="copyright">
+    <p>Copyright @Jivan. Made with <i class="fa-solid fa-heart"></i>.All rights are reserved</p>
+</div>
+
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname){
+           for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+           }
+           for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+           }
+
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    
+</body>
+</html>
